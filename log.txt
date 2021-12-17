@@ -1,0 +1,5 @@
+12/16/2021
+- Created team work repo + added collaborators.
+- Added all necessary files to team work repo.
+- Formulated a plan with trio members.
+- Updated plan.txt, notes.txt, and log.txt in work repo.
