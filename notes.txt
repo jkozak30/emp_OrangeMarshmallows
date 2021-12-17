@@ -1,0 +1,4 @@
+- currentTimeMillis() method returns the current time in miliseconds.
+- The unit of time of the return value is a milisecond.
+- The granularity of the value depends on the underlying operating system and may be larger.
+- Many operating systems measure time in units of tens of miliseconds.
