@@ -1,0 +1,12 @@
+- Method doTrials takes a Comparable[] a, and an int numTrials
+  - initializes long initTime that stores the current time
+  - has a while loop that runs BinSearch with a and a random integer numTrials times
+  - initializes another long midTime to store the time after finished, and before LinSearch starts
+  - has a while loop that runs LinSearch with a and a random integer numTrials times
+  - another long finalTime will store the final time
+- Method findTime (takes time in seconds)
+  - initializes double binTime as (double)(midTime - initTime)/1000
+  - double linTime is (double)(finalTime - midTime)/1000
+- Method compareTime 
+  - checks if binTime > linTime or binTime < linTime, in which case it prints the number of trials and by how many seconds faster
+  - if they are equal, prints the corresponding message
