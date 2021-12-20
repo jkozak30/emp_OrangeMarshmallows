@@ -3,3 +3,6 @@
 - Added all necessary files to team work repo.
 - Formulated a plan with trio members.
 - Updated plan.txt, notes.txt, and log.txt in work repo.
+
+12/17/2021
+- Updated BinSearch.java, LinSearch.java
