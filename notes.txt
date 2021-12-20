@@ -1,4 +1,18 @@
-- currentTimeMillis() method returns the current time in miliseconds.
+Team Orange Marshmellows: Julia Kozak, Nina Jiang, Diana Akhmedova // Duckies: Flopsy, Miss Alpaca, Ajax
+APCS pd08
+L03 -- Get Empirical
+2021-12-19
+Time Spent: 0.5 hrs
+
+DISCO:
+- currentTimeMillis() method returns the current time in milliseconds.
 - The unit of time of the return value is a milisecond.
 - The granularity of the value depends on the underlying operating system and may be larger.
 - Many operating systems measure time in units of tens of miliseconds.
+- BinSearch() uses "unchecked" operations which cause warnings if not suppressed.
+- LinSearch() was more efficient/faster for smaller array searches, while BinSearch() was more efficient/faster for larger array searches.
+
+QCC:
+- What causes the significant variability in the length of time taken by a function to run an array?
+- What other factors could contribute to longer run time (individual computers, etc.)?
+- Are there any other search methods that could be tested along with binary search and linear search? Are there any search methods that are more efficient than binary search?
