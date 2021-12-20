@@ -1,7 +1,7 @@
 Team Orange Marshmellows: Julia Kozak, Nina Jiang, Diana Akhmedova // Duckies: Flopsy, Miss Alpaca, Ajax
 APCS pd08
 L03 -- Get Empirical
-2021-12-19
+2021-12-21
 Time Spent: 0.5 hrs
 
 DISCO:
@@ -11,6 +11,8 @@ DISCO:
 - Many operating systems measure time in units of tens of miliseconds.
 - BinSearch() uses "unchecked" operations which cause warnings if not suppressed.
 - LinSearch() was more efficient/faster for smaller array searches, while BinSearch() was more efficient/faster for larger array searches.
+- When given the worst case for a target, Binary Search is more efficient with arrays of larger length.
+- When given the best case for a target, Linear Search is slightly more efficient than Binary Search overall.
 
 QCC:
 - What causes the significant variability in the length of time taken by a function to run an array?
