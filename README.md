@@ -27,4 +27,5 @@
 
 
 ### Conclusions
-* For smaller searches and random targets, Linear Search is slightly more efficient. But for larger arrays, Binary Search is significantly faster.
+* For smaller searches and random targets, Linear Search is slightly more efficient. 
+* For larger arrays, Binary Search is significantly faster.

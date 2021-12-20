@@ -12,12 +12,12 @@ public class SearchDriver {
 
 		initTime = System.currentTimeMillis();
 		for (int i=0; i<numTrials; i++) {
-			target = (int)(Math.random() * length);
+			target = (int)(Math.random() * (length * 2 - 1));
 			BinSearch.binSearch(a, target);
 		}
 		midTime = System.currentTimeMillis();
 		for (int i=0; i<numTrials; i++) {
-			target = (int)(Math.random() * length);
+			target = (int)(Math.random() * (length * 2 - 1));
 			LinSearch.linSearch(a, target);
 		}
 		finalTime = System.currentTimeMillis();
@@ -26,11 +26,13 @@ public class SearchDriver {
 		linTime = (int)(finalTime-midTime);
 
 		if(binTime < linTime) {
-			result = "For " + numTrials + " searches on arrays of length " + length + ", Binary Search was faster by " + toSec(linTime - binTime) + " seconds.";
+			result = "For " + numTrials + " searches on arrays of length " + length + ", Binary Search was faster by " + toSec(linTime - binTime) + " seconds";
+			result += " (Faster time: " + toSec(binTime) + " seconds).";
 		} else if (linTime < binTime) {
-			result = "For " + numTrials + " searches on arrays of length " + length + ", Linear Search was faster by " + toSec(binTime - linTime) + " seconds.";
+			result = "For " + numTrials + " searches on arrays of length " + length + ", Linear Search was faster by " + toSec(binTime - linTime) + " seconds";
+			result += " (Faster time: " + toSec(linTime) + " seconds).";
 		} else {
-			result = "For " + numTrials + " searches on arrays of length " + length + ", both searches took " + binTime + " milliseconds.";
+			result = "For " + numTrials + " searches on arrays of length " + length + ", both searches took " + toSec(binTime) + " seconds.";
 		}
 		return result;
 	}
@@ -41,14 +43,13 @@ public class SearchDriver {
 	}
 
 	public static void main(String[] args) {
-		System.out.println(compareTime(5000, 1));
-		System.out.println(compareTime(5000, 10));
-		System.out.println(compareTime(5000, 100));
-		System.out.println(compareTime(5000, 1000));
-		System.out.println(compareTime(5000, 10000));
-		System.out.println(compareTime(5000, 100000));
-		System.out.println(compareTime(5000, 1000000));
-
+		System.out.println(compareTime(10000, 1));
+		System.out.println(compareTime(10000, 10));
+		System.out.println(compareTime(10000, 100));
+		System.out.println(compareTime(10000, 1000));
+		System.out.println(compareTime(10000, 10000));
+		System.out.println(compareTime(10000, 100000));
+		System.out.println(compareTime(10000, 1000000));
 
 	}
 

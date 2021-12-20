@@ -6,3 +6,10 @@
 
 12/17/2021
 - Updated BinSearch.java, LinSearch.java
+
+12/18/2021
+- Updated SearchDriver.java
+
+12/19/2021
+- Finalized code for everything.
+- Updated notes.txt, log.txt, and README.md in work repo.
