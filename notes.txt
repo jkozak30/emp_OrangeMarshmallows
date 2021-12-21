@@ -18,3 +18,28 @@ QCC:
 - What causes the significant variability in the length of time taken by a function to run an array?
 - What other factors could contribute to longer run time (individual computers, etc.)?
 - Are there any other search methods that could be tested along with binary search and linear search? Are there any search methods that are more efficient than binary search?
+
+GALLERY TOUR:
+- Team Consonants
+	- BinSearch faster, difference more dramatic for larger arrays.
+	- Used a different number of searches for each size.
+	- The size of the number and time did not increase proportionally to each other.
+	- Targets are chosen randomly.
+	- The largest number took 2 hours for LinSearch.
+	- Searched every element in the array.
+- Team Walrus
+	- Made 2 augmented search methods, where you can input the array and the number of trials.
+	- It retuns the number of times the array is accessed.
+	- Only used 1,000,000 elements as a test case in the array.
+- Team DiscordDucks
+	- Had 7 arrays of ascending order.
+	- Each array had 100 random numbers.
+	- The largest array consisted of 50 million elements.
+	- Tested 100 trials for each search method.
+- Team MumbleCore
+	- Tested arrays of different sizes, each for 10,000 trials.
+	- Had a consistent procedure.
+	- Tested only the worst case for each search method.
+- Team Silly Serpents
+	- Each array gives updates for the program status, prints every operation when it is done.
+	- Compares random best and worst cases.
