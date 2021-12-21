@@ -111,6 +111,11 @@ public class SearchDriver {
 	}
 
 	public static void main(String[] args) {
+	
+		compareTime(10000, 10000);
+		System.out.println("Initial lag cleared.");
+		
+		System.out.println();
 		System.out.println("Testing random targets...");
 		System.out.println(compareTime(100000, 1));
 		System.out.println(compareTime(100000, 10));
